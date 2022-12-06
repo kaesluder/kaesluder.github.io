@@ -61,6 +61,6 @@ I hope to start a new career where I can combine my passion for computer program
 
 ## Indiana University, Bloomington
 
-*   Instructional Systems Technology, PhD; 2008.
+*   Instructional Systems Technology, PhD; 2010
 *   Instructional Systems Technology, M.S.; 1997
 
