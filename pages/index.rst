@@ -9,5 +9,6 @@
 
 
 
-This is just a stub, for now. If you want a peek into my brain, see my experimental 
-`digital garden <https://kaesluder.github.io/kae-garden-wiki/>`_. 
+Friends call me Kae. Pronouns are they/them.  If you want a peek into my brain,
+see my experimental `digital garden
+<https://kaesluder.github.io/kae-garden-wiki/>`_. 
