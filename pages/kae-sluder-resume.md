@@ -10,6 +10,8 @@ right-column:
   - 'GitHub: [https://github.com/kaesluder/](https://github.com/kaesluder/)'
   - 'Personal Site: [https://kaesluder.github.io/](https://kaesluder.github.io/)'
   - 'Last Updated: \today'
+
+title: 'Resume'
 ---
 
 # Summary
