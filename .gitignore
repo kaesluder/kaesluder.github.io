@@ -4,4 +4,5 @@ _site/
 .jekyll-metadata
 .doit.db
 __pycache__/
+cache/
 
