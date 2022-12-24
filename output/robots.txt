@@ -1,4 +1,0 @@
-Sitemap: https://kaesluder.github.io/sitemapindex.xml
-
-User-Agent: *
-Host: kaesluder.github.io

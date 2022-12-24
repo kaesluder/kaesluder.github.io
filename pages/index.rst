@@ -12,3 +12,6 @@
 Friends call me Kae. Pronouns are they/them.  If you want a peek into my brain,
 see my experimental `digital garden
 <https://kaesluder.github.io/kae-garden-wiki/>`_. 
+
+.. thumbnail:: /images/Savannah_College_of_Art_and_Design.png
+
