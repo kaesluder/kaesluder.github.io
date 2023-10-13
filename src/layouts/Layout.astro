@@ -5,7 +5,7 @@ const {
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <link
       rel="stylesheet"
@@ -13,7 +13,6 @@ const {
     />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico?" />
     <script
       src="https://kit.fontawesome.com/400e27f1db.js"
       crossorigin="anonymous"
@@ -38,37 +37,6 @@ const {
   </body>
 </html>
 <style is:global>
-  /* Teal Light scheme (Default) */
-  /* Can be forced with data-theme="light" */
-  [data-theme='light'],
-  :root:not([data-theme='dark']) {
-    --primary: #00897b;
-    --primary-hover: #00796b;
-    --primary-focus: rgba(0, 137, 123, 0.125);
-    --primary-inverse: #fff;
-  }
-
-  /* Teal Dark scheme (Auto) */
-  /* Automatically enabled if user has Dark mode enabled */
-  @media only screen and (prefers-color-scheme: dark) {
-    :root:not([data-theme]) {
-      --primary: #00897b;
-      --primary-hover: #009688;
-      --primary-focus: rgba(0, 137, 123, 0.25);
-      --primary-inverse: #fff;
-    }
-  }
-
-  /* Teal Dark scheme (Forced) */
-  /* Enabled if forced with data-theme="dark" */
-  [data-theme='dark'] {
-    --primary: #00897b;
-    --primary-hover: #009688;
-    --primary-focus: rgba(0, 137, 123, 0.25);
-    --primary-inverse: #fff;
-  }
-
-  /* Teal (Common styles) */
   :root {
     --form-element-active-border-color: var(--primary);
     --form-element-focus-color: var(--primary-focus);
@@ -76,7 +44,6 @@ const {
     --switch-checked-background-color: var(--primary);
     --font-size: 16px;
   }
-
   h1 {
     --font-size: 1.75rem;
     --typography-spacing-vertical: 1rem;
