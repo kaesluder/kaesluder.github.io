@@ -1,14 +1,12 @@
 ---
-layout: '../layouts/Layout.astro'
-title: 'Resume'
+layout: default.liquid
+title: 'Site Credits'
 ---
-
-# Website Credits
 
 Created with love using:
 
 - Structure & Framework: [Cobalt](https://cobalt-org.github.io)
-- CSS: [Water CSS](https://github.com/kognise/water.css)
+- CSS: [Simple CSS](https://github.com/kevquirk/simple.css)
 - Markdown Extensions: [MDX](https://mdxjs.com/)
 - Hosting: [Github Pages](https://pages.github.com/)
 - Icons: [Font Awesome](https://fontawesome.com/)
