@@ -1,6 +1,6 @@
 baseURL = 'https://kaesluder@github.io/'
 languageCode = 'en-us'
-title = 'Kae Sluder: Coding Recipes and Snips'
+title = 'Kae Sluder: Recipes and Snips'
 theme = 'hugo-bearcub'
 
 [menu]
