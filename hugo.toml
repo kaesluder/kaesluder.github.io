@@ -1,0 +1,24 @@
+baseURL = 'https://kaesluder@github.io/'
+languageCode = 'en-us'
+title = 'Kae Sluder: Coding Recipes and Snips'
+theme = 'hugo-bearcub'
+
+[menu]
+
+# [[menu.main]]
+# identifier = "home"
+# name = "Home"
+# url = "/"
+# weight = 1
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 2
+
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/posts/"
+weight = 3
