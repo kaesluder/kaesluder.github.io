@@ -2,6 +2,8 @@ baseURL = 'https://kaesluder@github.io/'
 languageCode = 'en-us'
 title = 'Kae Sluder: Recipes and Snips'
 theme = 'hugo-bearcub'
+copyright = "Kae Sluder (CC BY 4.0)"
+
 
 [menu]
 
@@ -22,3 +24,14 @@ identifier = "blog"
 name = "Blog"
 url = "/posts/"
 weight = 3
+
+[params]
+
+madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
+description = "Kae Sluder: Recipes and Snips"
+
+[params.social]
+
+
+github = "kaesluder"
+linkedin = "kae-sluder"

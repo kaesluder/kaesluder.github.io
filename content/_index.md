@@ -6,15 +6,20 @@ menu: main
 
 # Home
 
-I’m a fullstack developer with 12 years of professional edTech experience. I graduated from Ada Developers Academy and interned with Amazon AuthX in 2023. This is a space to [_Learn in Public_ (pdf)](https://learninpublic.org/v1-principles-learn-in-public.pdf) by sharing snippets, resources, and howtos on current projects. Much of this is inspired by how many techniques end up passed through video or contented behind a login wall.
+I’m a fullstack developer with 12 years of professional edTech experience. I graduated from Ada Developers Academy and interned with Amazon AuthX in 2023. This is a space to [_Learn in Public_ (pdf)](https://learninpublic.org/v1-principles-learn-in-public.pdf) by sharing snippets, resources, and howtos on current projects. Much of this is inspired by how many techniques end up passed through video or confined behind a login wall.
 
 Current interests include:
 
 - becoming more fluent in rust
-- Obsidian
+- using Obsidian for knowledge management, job hunting, and solo ttrpg play
 - prompt engineering for reflection and personal knowledge management
 
 If you want a peek into my brain, see my experimental [digital garden](https://kaesluder.github.io/kae-garden-wiki/).
+
+## Projects
+
+- [Radio Gaga](https://github.com/kaesluder/radiogaga): Streaming radio browser built on tauri and svelte.
+- [Drama Llama](https://github.com/kaesluder/drama-llama-py): Experimental RSS feed reader built on flask and react.
 
 ## Organizations I've Worked/Volunteered With
 
@@ -23,3 +28,8 @@ If you want a peek into my brain, see my experimental [digital garden](https://k
 - [Ada Developers Academy](https://adadevelopersacademy.org/): Desktop rss-viewer.
 - [First City Pride Center](https://www.firstcitypridecenter.org/): Small-event organization, group facilitation, and front-desk resource guide.
 - [Savannah College of Art and Design](https://www.scad.edu/): Instructional Designer for eLearning (remote) campus.
+
+## Social
+
+- [LinkedIn](https://www.linkedin.com/in/kae-sluder/)
+- [github](https://github.com/kaesluder)

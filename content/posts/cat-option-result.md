@@ -132,3 +132,7 @@ fn main() {
 }
 
 ```
+
+## Why?
+
+Pass errors back up the call stack to a point where it makes sense to show them to the user.
