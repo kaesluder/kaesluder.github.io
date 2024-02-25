@@ -14,8 +14,6 @@ Current interests include:
 - using Obsidian for knowledge management, job hunting, and solo ttrpg play
 - prompt engineering for reflection and personal knowledge management
 
-If you want a peek into my brain, see my experimental [digital garden](https://kaesluder.github.io/kae-garden-wiki/).
-
 ## Projects
 
 - [Radio Gaga](https://github.com/kaesluder/radiogaga): Streaming radio browser built on tauri and svelte.
