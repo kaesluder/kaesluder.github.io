@@ -6,13 +6,13 @@ draft = true
 
 ## Notes on trying to understand Rust Result and Option types using armchair physics.
 
-![Diagram of the Schrodinger's cat thought experiment. A radioactive isotope randomly triggers a detector, which releases poison into a box with a cat inside. The cat in this thought experiment is in a state of quantum superposition.](/images/schrodingers_cat_illustration.png)
+![Diagram of the Schrödinger's cat thought experiment. A radioactive isotope randomly triggers a detector, which releases poison into a box with a cat inside. The cat in this thought experiment is in a state of quantum superposition.](/images/schrodingers_cat_illustration.png)
 
 ## The Cat
 
-Schrodinger's Cat is a famous thought experiment about [quantum superposition](https://scienceexchange.caltech.edu/topics/quantum-science-explained/quantum-superposition). It's not realistic at all, but it's popular one for the memes.
+Schrödinger's Cat is a famous thought experiment about [quantum superposition](https://scienceexchange.caltech.edu/topics/quantum-science-explained/quantum-superposition). It's not realistic at all, but it's popular one for the memes.
 
-The basic outline of the Schrodinger's cat thought-experiment is:
+The basic outline of the Schrödinger's cat thought-experiment is:
 
 1. A radioactive atom randomly (based on its half-life) triggers...
 2. A sensitive detector or "camera," that releases...
@@ -135,4 +135,7 @@ fn main() {
 
 ## Why?
 
-Pass errors back up the call stack to a point where it makes sense to show them to the user.
+Of course, experimental physics research can be a multi-billion effort involving [hundreds of researchers](https://improbable.com/airchives/classical/articles/peanut_butter_rotation.html). The person opening the box might be a lab assistant or intern responsible for just recording results. Individual results are often aggregated, discussed over the coffee pot, or shared at meetings.
+
+Similarly, errors don't need to be handled by the first function that detects them. One error might be a hiccup, but a dozen might be a network outage or a bug. `Option` and `Result` provide ways to pass responsibility for the handling the error to functions responsible for coordinating inputs, and passing readable results to the user. An email interface might try a request again, following some rate-limiting logic. A user interface might collect multiple failures before informing the user. This is similar to the "ask forgiveness" model favored by python, but encourages the programmer to explicitly handle error conditions (even if handling the error means passing it up to the parent function.)
+

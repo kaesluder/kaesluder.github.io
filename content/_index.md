@@ -10,9 +10,9 @@ I’m a fullstack developer with 12 years of professional edTech experience. I g
 
 Current interests include:
 
-- becoming more fluent in rust
-- using Obsidian for knowledge management, job hunting, and solo ttrpg play
-- prompt engineering for reflection and personal knowledge management
+- Rust: Leveling up skills with tauri and command-line apps.
+- Obsidian: Knowledge management and document organization for learning and table-top RPG play.
+- Prompt Engineering: Using large language models for reflection and documentation.
 
 ## Projects
 
