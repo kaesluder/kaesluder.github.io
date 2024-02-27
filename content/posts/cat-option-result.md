@@ -41,7 +41,6 @@ Ways to handle a failure in more dynamic languages:
 
 Rust doesn't like it when you change types by passing null, nill, or none in some cases and integers or booleans in other cases. Rust has a pre-built type for this. The `Result` type can be Ok(value) or Err(error).
 
-https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&gist=9760eef0013280038d99ea75d2b29a42
 
 ```rust
 use rand::random;
