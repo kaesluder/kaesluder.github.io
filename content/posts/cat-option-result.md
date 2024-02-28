@@ -1,7 +1,7 @@
 +++
 title = 'The Cat, The Option, and The Result'
-date = 2024-02-21T23:10:58-05:00
-draft = true
+date = 2024-02-27T23:10:58-05:00
+draft = false
 +++
 
 ## Notes on trying to understand Rust Result and Option types using armchair physics.
