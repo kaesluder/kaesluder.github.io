@@ -1,7 +1,7 @@
 +++
 title = 'Mocking or Stubbing With Traits'
-date = 2024-03-08T21:06:45-05:00
-draft = true
+date = 2024-03-13T21:06:45-05:00
+draft = false
 +++
 
 One of the things I've struggled with as a new developer is the problem of mocking or stubbing non-deterministic functions for testing. In bootcamp, I designed a pretty clever statistical test for the validity of scrabble draws, and got "that's interesting, but not the right approach." There are a couple of areas where I've worked with this, and a couple of reasons why stubbing is useful:
