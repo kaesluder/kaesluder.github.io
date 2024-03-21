@@ -1,7 +1,7 @@
 +++
 title = 'Tool Bag, March 2024'
-date = 2024-03-16T13:10:09-04:00
-draft = true
+date = 2024-03-20
+draft = false
 +++
 
 
@@ -13,7 +13,7 @@ One of the advantages (or disadvantages depending on your perspective) is having
 
 [OpenSUSE Tumbleweed](https://get.opensuse.org/tumbleweed/) strikes a fair balance between stability and software availability not dependent on Snaps. Package updates are evaluating through an automated quality-testing platform. And honestly, it's the first time in a long time when everything just works.
 
-Desktop choices are largely a personal decision. Somehow I always end up in KDE eventually.
+Desktop choices are largely a personal decision. Somehow I always end up in KDE eventually. In the past, working with audio and locking on sleep have been significant blockers. 
 
 ### Helix (text editor)
 
