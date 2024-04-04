@@ -1,7 +1,7 @@
 +++
 title = 'Ephemeral Jupyter Container with JavaScript, Typescript, and Rust'
-date = 2024-04-02T18:05:01-04:00
-draft = true
+date = 2024-04-03
+draft = false
 +++
 
 I must admit, I'm a bit of a latecomer to containers and Jupyter. But my current gig involves testing a lot of AI-generated code. I somehow managed to break my last Jupyter Lab venv and had to start over, and realized that a container with a fixed spec would save a little bit of time. Each day, I can start with a (mostly) fresh environment without any library conflicts. Some of the requirements included:
