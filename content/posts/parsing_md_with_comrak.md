@@ -1,7 +1,7 @@
 +++
 title = 'Learning How to Parse Markdown with Comrak and Rust'
 date = 2024-04-13T12:39:55-04:00
-draft = true
+draft = false
 +++
 
 ![a black hole swallowing markdown from various PKM systems and spitting out a jet of text and JSON](/images/link_extractor1.png)
