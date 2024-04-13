@@ -13,11 +13,11 @@ So one of the things I keep reinventing with each language I learn are some simp
 - Extract text and urls from external links. 
 - Output delimited text that I can parse with other tools such as `awk`, `grep`, and `fzf`.
 - Also output JSON in case I want to feed something that reads JSON. 
-- Use parsing instead of regex. Regex *superficially* is easier for this case, but comes with a lot of edge cases. Also, I want to learn how to do document processing in Rust for future use, and possibly expand in the future to use DOM-style queries. 
+- Use parsing instead of regex. Regex *superficially* is easier for this case, but comes with some edge cases. Also, I want to learn how to do document processing in Rust for future use, and possibly expand in the future to use DOM-style queries. 
 
 ### Comrak 
 
-[Comrak](https://crates.io/crates/comrak) is a tool and library written in Rust for parsing Github Flavored Markdown and Commonmark Markdown. It *also* has the ability to create Abstract Syntax Trees (ASTs), which are a format-agnostic representation of the structure of a file. Using the AST allows me to pretend that markdown has "tags", when it doesn't. And Comrak has a [documented](https://github.com/kivikakk/comrak) method for searching the AST for specific nodes: recursively walk the tree and do something when you hit a target node. 
+[Comrak](https://crates.io/crates/comrak) is a tool and library written in Rust for parsing two of the more popular flavors of markdown. It *also* has the ability to create Abstract Syntax Trees (ASTs), which are a format-agnostic representation of the structure of a file. Using the AST allows me to handle individual markdown elements as they would be rendered into HTML. And Comrak has a [documented](https://github.com/kivikakk/comrak) method for searching the AST for specific nodes: recursively walk the tree and do something when you hit a target node. 
 
 ```rust
 // The returned nodes are created in the supplied Arena, and are bound by its lifetime.
@@ -81,7 +81,7 @@ fn extract_text<'a>(root: &'a AstNode<'a>) -> String {
 }
 ```
 
-`root.descendants()` Sometimes when I get over my head I think "there has to be a function that already does this." `AstNode.descendants()` does the recursion for me, giving me an iterator of node references that can be passed to...
+`root.descendants()` Sometimes when I get over my head I think "is there a function I'm missing to handle this?" Diving through the source code led me eventually to `AstNode.descendants()` `AstNode.descendants()` does the recursion for me, giving me an iterator of node references that can be passed to...
 
 `.filter_map()` `filter_map()` does exactly what it looks like, combines filter and map. If the Node is a text node, we crack it open and return the value wrapped in `Some()`. If the node is *not* a text node (em, strong, image, or any other inline markup) the filter side skips over it. 
 
