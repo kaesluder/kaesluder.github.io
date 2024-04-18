@@ -24,7 +24,7 @@ tar -xvf "$temp_dir/zellij-x86_64-unknown-linux-musl.tar.gz" -C /workspace/kaesl
 # Remove the temporary directory
 rm -r "$temp_dir"
 
-sudo apt install -y hunspell 
+sudo apt install -y hunspell ksh
 
 # update theme submodules
 git submodule update --init --recursive
