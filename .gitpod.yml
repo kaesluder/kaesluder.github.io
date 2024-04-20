@@ -1,6 +1,7 @@
 image: gitpod/workspace-full:latest
 tasks:
-- init: /usr/bin/sh /workspace/kaesluder.github.io/.gitpod_setup.sh
+- name: "gitpod setup"
+  init: /usr/bin/sh /workspace/kaesluder.github.io/.gitpod_setup.sh
 - command: /workspace/kaesluder.github.io/hugo server -D
 
   
