@@ -18,7 +18,7 @@ print(test_variable_one) # '1'
 print(test_variable_none) # 'None'
 ```
 
-In Rust, variable types need to be known at runtime. The following code block won't compile because I've declared `my_dict` to use character values as keys and integers as values. Trying to insert a character into a slot designed for an integer. It will also fail if I try to use a variable that *could* be a string, character, or floating-point number. 
+In Rust, variable types need to be known at runtime. The following code block won't compile because I've declared `my_dict` to use character values as keys and integers as values. The code is trying to insert a character into a slot designed for an integer. It will also fail if I try to use a variable that *could* be a string, character, or floating-point number. 
 
 ```rust
 use std::collections::HashMap;
@@ -63,7 +63,7 @@ I introduced `Option` and `Result` in an [earlier post](/posts/cat-option-result
 5. A result object
 6. An empty string
 7. An empty list
-8. 0
+8. `0`
 
 Running into `None` often feels ambiguous. Is the answer `None`? Does `None` mean "I didn't find it?" Or am I getting `None` in Python because I forgot to add a `return` statement? Rust has two standard types to resolve this ambiguity. Functions that return either a value or a null result return an `Option` (`Some(T)` or `None`). Examples of this are hash, substring, or array lookups. Extending the example above, `HashMap.get(key)` returns `Some(value)` if there's a value at `key`. If there's not a value at `key` `HashMap.get()` returns `None`.
 
