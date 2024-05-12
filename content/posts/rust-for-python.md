@@ -1,7 +1,7 @@
 +++
 title = 'Rust Benefits for Python Peeps'
-date = 2024-04-20T17:03:34Z
-draft = true
+date = 2024-05-11T17:03:34Z
+draft = false
 +++
 
 [Rust](https://www.rust-lang.org) is a growing multi-style programming language that has become popular for its memory safety. Memory safety is a big selling point for Rust vs. C or C++, where developers are expected to write code for managing safety. But I've found many of those features to be useful coming to Rust as a Python hobbyist and developer. 
@@ -91,7 +91,9 @@ println!("{:?}, {:?}", orig, result)
 
 The Rust compiler is *very* strict about specifying how variables live or are moved in the same scope. In order to mutate flipped at all, I need to declare it mutable and clone the original immutable data. This isn't the best Rust code, it's code that follows the python original for demonstration.
 
+## Summary
 
+Rust offers multiple features in addition to memory safety that help to prevent, identify, and locate errors that would be challenging to troubleshoot at runtime in Python. 
 
 
 
