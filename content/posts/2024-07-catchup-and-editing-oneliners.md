@@ -1,7 +1,7 @@
 +++
 title = 'July 2024, Catchup and Quick Ideas'
 date = 2024-07-30T15:10:54-04:00
-draft = true
+draft = false
 +++
 
 Catching up after a few months of big life and family changes.
