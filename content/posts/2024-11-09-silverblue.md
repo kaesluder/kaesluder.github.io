@@ -1,6 +1,6 @@
 +++
 title = 'Fedora Silverblue'
-date = 2024-11-09T22:18:09-05:00
+date = 2024-11-16 
 draft = false
 +++
 
@@ -73,5 +73,9 @@ There are related projects supporting different WMs and Desktop environments:
 * [OpenSUSE Aeon](https://aeondesktop.github.io/)
 * [universal blue images](https://universal-blue.org/) (Fedora Atomic with additional customization)
 
+Overall it's been an easy and comfortable experience so far. 
+There are a few glitches here and there,
+primarily due to flatpak permissions,
+but overall it provides a solid base for experimentation.
 
 
