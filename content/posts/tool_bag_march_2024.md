@@ -4,7 +4,6 @@ date = 2024-03-20
 draft = false
 +++
 
-
 This is just a grab-bag of tools that I'm using this month. I'm a bit of a command-line native, and lately been managing the tradeoff between features and focus. More buttons and menus creates more distractions *for me.* 
 
 ### OpenSUSE Tumbleweed with KDE (operating system)
@@ -44,3 +43,4 @@ podman run -it --rm -p 8888:8888 \
 
 This gives me a short-term Jupyter environment with read-only access to data files in Downloads. 
 
+test
