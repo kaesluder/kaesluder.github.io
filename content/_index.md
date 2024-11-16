@@ -32,4 +32,4 @@ Current interests include:
 ## Social
 
 - [LinkedIn](https://www.linkedin.com/in/kae-sluder/)
-- [github](https://github.com/kaesluder)
+- [github](https://github.com/kaesluder) 
