@@ -62,7 +62,7 @@ jobs:
           path: ./public
 
       - name: Check artifacts
-        run: "ls -al ${{ steps.pages.outputs.base_url }}"
+        run: "ls -al ./public"
 
   # # Deployment job
   # deploy:
