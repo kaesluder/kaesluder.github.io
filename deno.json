@@ -1,5 +1,6 @@
 {
   "imports": {
+    "@tailwindcss/typography": "npm:@tailwindcss/typography@^0.5.15",
     "lume/": "https://deno.land/x/lume@v2.4.2/"
   },
   "tasks": {
@@ -14,5 +15,5 @@
     "jsx": "react-jsx",
     "jsxImportSource": "npm:react",
     "jsxImportSourceTypes": "npm:@types/react"
-  } 
+  }
 }
