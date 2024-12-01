@@ -2,6 +2,7 @@
 title = 'Fedora Silverblue'
 date = 2024-11-16 
 draft = false
+icons = ["linux"]
 +++
 
 I like to try out different linux distributions. 

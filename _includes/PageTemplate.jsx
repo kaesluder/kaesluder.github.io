@@ -1,5 +1,6 @@
 import HeaderComponent from "../_components/HeaderComponent.jsx";
 import TopMenu from "../_components/TopMenu.jsx";
+import Footer from "../_components/Footer.jsx";
 
 export default (PageData, _helpers) => {
   const headerData = PageData;
@@ -10,6 +11,7 @@ export default (PageData, _helpers) => {
         <div className="flex flex-col items-center">
           <TopMenu />
           <main className="bg-stone-900 p-3 rounded">{PageData.children}</main>
+          <Footer />
         </div>
       </body>
     </html>

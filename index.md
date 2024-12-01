@@ -29,7 +29,3 @@ Current interests include:
 - [First City Pride Center](https://www.firstcitypridecenter.org/): Small-event organization, group facilitation, and front-desk resource guide.
 - [Savannah College of Art and Design](https://www.scad.edu/): Instructional Designer for eLearning (remote) campus. Content production for eLearning courses in HTML.
 
-## Social
-
-- [LinkedIn](https://www.linkedin.com/in/kae-sluder/)
-- [github](https://github.com/kaesluder) 
