@@ -23,7 +23,7 @@ export default () => {
           </a>
         </li>
       </ul>
-    <p className="mt-0">&copy; 2024 Kae Job Sluder, Creative Commons SA 4.0</p>
+    <p className="mt-0">&copy; 2024 Kae Job Sluder, Creative Commons BY 4.0</p>
     </footer>
   );
 };
