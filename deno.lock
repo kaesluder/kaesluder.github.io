@@ -1142,7 +1142,9 @@
   "workspace": {
     "dependencies": [
       "npm:@tailwindcss/typography@~0.5.15",
-      "npm:react-icons@^5.3.0"
+      "npm:@types/react@*",
+      "npm:react-icons@^5.3.0",
+      "npm:react@*"
     ]
   }
 }
