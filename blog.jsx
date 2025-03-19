@@ -1,4 +1,7 @@
 import { FaLinux } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
+import { FaJs } from "react-icons/fa";
+
 
 export const layout = "./_includes/PageTemplate.jsx";
 export const title = "Blog Index";
@@ -10,6 +13,10 @@ const iconList = (icons) => {
     switch (icon) {
       case "linux":
         return <FaLinux key="linux" alt="linux" className="size-8" />;
+      case "react":
+        return <FaReact key="react" alt="react" className="size-8" />;
+      case "javascript":
+        return <FaJs key={icon} alt={icon} className="size-8" />;
       default:
         return null; // Return null or some default JSX if the icon is not recognized
     }
