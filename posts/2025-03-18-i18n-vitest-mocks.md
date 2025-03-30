@@ -11,7 +11,7 @@ The project I'm working on ran into some difficulty in unit testing. The i18n co
 
 Setup the mock in its own file to use in multiple tests. 
 
-````js
+```javascript
 // /src/mocks/i18nVitestMock.js
 
 export const i18nVitestMock = () => {
@@ -30,7 +30,7 @@ export const i18nVitestMock = () => {
       init: () => {},
     },
   }));
-````
+```
 
 This returns dummy functions for `init`, `useTranslation`, and `changeLanguage` `t(translationKey)` returns *translationKey* in the rendered output.
 
