@@ -35,7 +35,7 @@ export default function (data) {
             href={post.url}
             className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 mb-3"
           >
-            <figure className="w-20 grid grid-cols-2 gap-2">
+            <figure className="w-20 grid grid-cols-2 gap-2 m-2">
           {post.icons ? iconList(post.icons) : ""}
             </figure>
             <div className="flex flex-col justify-between p-4 leading-normal">
