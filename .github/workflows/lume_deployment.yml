@@ -3,7 +3,6 @@ name: Publish on GitHub Pages
 on:
   push:
     branches: [main]
-  workflow-dispatch:
 
 permissions:
   contents: read
