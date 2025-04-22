@@ -10,9 +10,8 @@ I’m a fullstack developer with 12 years of professional edTech experience. I g
 
 Current interests include:
 
-- Rust: Leveling up skills with tauri and command-line apps.
-- Obsidian: Knowledge management and document organization for learning and table-top RPG play.
-- Prompt Engineering: Using large language models for reflection and documentation.
+- JavaScript internationalization and testing
+- Rails back-end services
 
 ## Projects
 
@@ -22,7 +21,7 @@ Current interests include:
 
 ## Organizations I've Worked/Volunteered With
 
-- [PrimeRevenue](https://primerevenue.com/): Javascript testing and translation framework for supplier onboarding experience.
+- [PrimeRevenue](https://primerevenue.com/): JavaScript testing and translation framework for supplier onboarding experience.
 - [Trans Formations Project](https://www.transformationsproject.org): Automation script for bulk conversion of data from Airtable to Postgres.
 - [Amazon](https://amazon.com/): Microservice for storing and retrieving user challenge-authentication preferences.
 - [Ada Developers Academy](https://adadevelopersacademy.org/): Desktop rss-viewer.
