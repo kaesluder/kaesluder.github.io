@@ -2,6 +2,7 @@ import { FaLinux } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { FaJs } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
+import { FaVuejs} from "react-icons/fa";
 
 
 export const layout = "./_includes/PageTemplate.jsx";
@@ -20,6 +21,8 @@ const iconList = (icons) => {
         return <FaJs key={icon} alt={icon} className="size-8" />;
       case "link":
         return <FaLink key={icon} alt={icon} className="size-8" />;
+      case "vue":
+        return <FaVuejs key={icon} alt={icon} className="size-8" />;
       default:
         return null; // Return null or some default JSX if the icon is not recognized
     }
