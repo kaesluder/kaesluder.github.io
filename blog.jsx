@@ -3,6 +3,8 @@ import { FaReact } from "react-icons/fa";
 import { FaJs } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
 import { FaVuejs} from "react-icons/fa";
+import { FaTv } from "react-icons/fa";
+import { DiRuby } from "react-icons/di";
 
 
 export const layout = "./_includes/PageTemplate.jsx";
@@ -23,6 +25,10 @@ const iconList = (icons) => {
         return <FaLink key={icon} alt={icon} className="size-8" />;
       case "vue":
         return <FaVuejs key={icon} alt={icon} className="size-8" />;
+      case "tv":
+        return <FaTv key={icon} alt={icon} className="size-8" />;
+      case "ruby":
+        return <DiRuby key={icon} alt={icon} className="size-8" />;
       default:
         return null; // Return null or some default JSX if the icon is not recognized
     }
