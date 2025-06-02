@@ -55,7 +55,7 @@ export default function (data) {
                 {post.title}
               </h5>
               <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                {post.date.toLocaleDateString()}
+                {post.date.toLocaleDateString('en-US', { timeZone: 'UTC' }) }
               </p>
             </div>
           </a>
