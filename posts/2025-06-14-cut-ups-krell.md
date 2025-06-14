@@ -2,7 +2,7 @@
 title = '14 June 2025: Cut-Ups, Simplified Krell Patch'
 date = 2025-06-14
 draft = false
-icons = ["link"]
+icons = ["link", "ruby"]
 +++
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UrfFHzqGBZI?si=fEakddz0v1WR7Epk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
