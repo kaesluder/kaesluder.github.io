@@ -1,13 +1,34 @@
 +++
-title = '21 June 2025: Roundup'
+title = '21 June 2025: Roundup: Speeding up linux disk decryption, share topics, reflections, games'
 date = 2025-06-21
 draft = false
-icons = ["link", "javascript"]
+icons = ["linux", "javascript"]
 +++
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0FyLcHxbSRk?si=qAEMAohBM02byDmk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Not a lot to talk about this week.
+## Playing with Manjaro
+
+Working (again) on making an older Thinkpad T420 (2011) useful for home surfing and light development. Trying out [ Manjaro ](https://manjaro.org/) for now because with hardware this old I've run into issue with immutable systems like [Fedora Atomic](https://fedoraproject.org/atomic-desktops/). 
+
+### Tweaking full-disk encryption
+
+Full-disk encryption defaults can be unbearably slow for unlocking (over 1 minute) on this machine. Unlocking happens early during the boot process before the system has access to crypto hardware. I tweaked this using the following to set the number of iterations to a lower value. Dropping from 1,500,000 to 10,000 combined with a high-entropy passphrase is hopefully good enough for the need:
+
+
+````bash
+sudo cryptsetup luksChangeKey --pbkdf-force-iterations 10000 --key-slot 0 /dev/sda1
+
+# check key creation
+sudo cryptsetup luksDump /dev/sda1
+
+# remove old key
+sudo cryptsetup luksKillKey /dev/sda1 0 
+````
+
+As always, double-check device ids and RTFM before making changes.
+
+
 
 ## Tools Show and Share
 
