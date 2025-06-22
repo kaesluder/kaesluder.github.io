@@ -42,16 +42,16 @@ export default function (data) {
           <a
             key={post.url}
             href={post.url}
-            className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 mb-3"
+            className="flex flex-col items-center bg-stone-950 text-white border border-stone-800 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-stone-900 mb-3"
           >
             <figure className="w-32 grid grid-cols-2 gap-2 m-2">
               {post.icons ? iconList(post.icons) : ""}
             </figure>
             <div className="flex flex-col justify-between p-4 leading-normal w-full">
-              <h5 className="mb-0 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 className="mb-0 text-2xl font-bold tracking-tight text-white">
                 {post.title}
               </h5>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p className="mb-3 font-normal text-stone-300">
                 {post.date.toLocaleDateString("en-US", { timeZone: "UTC" })}
               </p>
             </div>
