@@ -42,7 +42,7 @@ export default function (data) {
           <a
             key={post.url}
             href={post.url}
-            className="flex flex-col items-center bg-stone-950 text-white border border-stone-800 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-stone-900 mb-3"
+            className="flex flex-col items-center bg-stone-950 text-white border border-stone-800 rounded-lg shadow md:flex-row hover:bg-stone-900 mb-3"
           >
             <figure className="w-32 grid grid-cols-2 gap-2 m-2">
               {post.icons ? iconList(post.icons) : ""}

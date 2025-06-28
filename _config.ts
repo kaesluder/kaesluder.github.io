@@ -22,5 +22,8 @@ site.use(
 site.use(jsx(/* Options */));
 site.use(postcss());
 site.loadAssets([".css"]);
+site.copyRemainingFiles(
+  (path: string) => path.startsWith("/images/"),
+);
 
 export default site;

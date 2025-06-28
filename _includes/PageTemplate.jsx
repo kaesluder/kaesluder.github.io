@@ -7,11 +7,11 @@ export default (PageData, _helpers) => {
   return (
     <html>
       <HeaderComponent {...headerData} />
-      <body className="prose prose-invert bg-stone-950 container mx-auto ">
-        <div className="flex flex-col items-center">
+      <body className="prose prose-invert bg-stone-950 container mx-auto max-w-3xl ">
+        <div className="flex flex-col items-center w-2xl">
           <TopMenu />
           <h1>{PageData.title}</h1>
-          <main className="bg-stone-900 p-3 rounded w-100">
+          <main className="bg-stone-900 p-3 rounded w-full">
             {PageData.children}
           </main>
           <Footer />
