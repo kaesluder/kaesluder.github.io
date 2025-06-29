@@ -8,7 +8,7 @@ export default () => {
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="/blog">Blog</a>
+            <a href="https://kaesluder.github.io/kaesluder-blog/">Blog</a>
           </li>
           <li>
             <a href="/resume">Resume</a>
