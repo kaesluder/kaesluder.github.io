@@ -13,7 +13,7 @@ Current interests include:
 - JavaScript internationalization and testing
 - Rails back-end services
 
-## Projects
+## "Side" (Not for Work) Projects
 
 - [Radio Gaga](https://github.com/kaesluder/radiogaga): Streaming radio browser built on tauri and svelte.
 - [Drama Llama](https://github.com/kaesluder/drama-llama-py): Experimental RSS feed reader built on flask and react.
@@ -27,4 +27,3 @@ Current interests include:
 - [Ada Developers Academy](https://adadevelopersacademy.org/): Desktop rss-viewer.
 - [First City Pride Center](https://www.firstcitypridecenter.org/): Small-event organization, group facilitation, and front-desk resource guide.
 - [Savannah College of Art and Design](https://www.scad.edu/): Instructional Designer for eLearning (remote) campus. Content production for eLearning courses in HTML.
-
